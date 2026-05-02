@@ -1,0 +1,19 @@
+{
+  "csv": "csv_files/case_with_geom_params_train.csv",
+  "h5": "data/surface_data.hdf5",
+  "norm_json": "norm_stats.json",
+  "epochs": 1000,
+  "batch_size": 32,
+  "lr": 0.001,
+  "train_ratio": 0.9,
+  "device": "cuda:0",
+  "amp": true,
+  "model": {
+    "cond_dim": 13,
+    "coord_dim": 6,
+    "output_dim": 3,
+    "hidden_dim": 256,
+    "num_layers": 4,
+    "extra_layers": 3
+  }
+}
